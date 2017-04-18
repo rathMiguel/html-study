@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/*==================================
+ヘッダー
+==================================*/
+
+#header {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #CCC;
+  .logo {
+    float: left;
+    img {
+      vertical-align: bottom;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/*==================================
+基本レイアウト
+==================================*/
+
+.wrapper{
+	max-width: 1000px;
+	margin: auto;
+}
+
+.rows{
+	@include clearfix;
+}
