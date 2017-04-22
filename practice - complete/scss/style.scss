@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+//==============================
+// ▼基本設定
+//==============================
+
+$color-main: #009999;
+
+//
+// ミックスイン
+//==============================
+@mixin clearfix{
+  &:before {
+    content: "";
+    display: table;
+  }
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+//==============================
+// ▼各パーツの読み込み
+//==============================
+@import "parts/base";
+@import "parts/header";
+@import "parts/nav";
+@import "parts/layout";
+@import "parts/main";
+@import "parts/footer";

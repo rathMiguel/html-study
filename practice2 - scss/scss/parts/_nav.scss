@@ -3,28 +3,3 @@
 /*==================================
 ナビゲーション
 ==================================*/
-
-#nav {
-  float: right;
-  padding-top: 70px;
-  a {
-    color: #111;
-    text-decoration: none;
-    font-size: 18px;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-  li {
-    .fa {
-      margin-right: 0.3em;
-    }
-    float: left;
-    border-left: 1px solid #CCC;
-    padding-left: 20px;
-    padding-right: 20px;
-    &:last-child {
-      border-right: 1px solid #CCC;
-    }
-  }
-}

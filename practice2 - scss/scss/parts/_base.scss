@@ -3,19 +3,3 @@
 /*==================================
 基本設定
 ==================================*/
-
-body {
-  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-  font-size: 16px;
-  color: #333;
-  line-height: 1.5;
-  background: #fcfcfc;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-
-a{
-	&:hover{
-		text-decoration: none;
-	}
-}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/*==================================
+フッター
+==================================*/
+
+#footer{
+	background-color: $color-main;
+	color: #FFF;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	margin-top: 80px;
+	small{
+		font-size: 13px;	
+	}
+}

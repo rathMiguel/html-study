@@ -32,14 +32,14 @@
 	</header>
 	<!-- ▲ヘッダーのマークアップをしてみましょう▲ -->
 	<!-- ▼メインコンテンツのマークアップをしてみましょう▼ -->
-	<main id="main">
-		<div class="wrapper">
-			<!-- ▽スライダーを実装してみましょう -->
-			<script>
-				$(function(){
-					$('#slider').bxSlider()
-				});
-			</script>
+	<main>
+	  <div class="wrapper wrapper-main">
+	    <!-- ▽スライダーを実装してみましょう -->
+	    <script>
+	    	$(function(){
+	    		$('.slider').bxSlider();
+	    	})
+	    </script>
 			<div id="slider" class="slider">
 				<div class="slider-item"><img src="img/slide1.jpg" alt="スライダー1"></div>
 				<div class="slider-item"><img src="img/slide2.jpg" alt="スライダー2"></div>
@@ -47,54 +47,50 @@
 			</div>
 
 			<!-- ▽グリッドレイアウトを作ってみましょう -->
-			<h2 class="title-main">店舗ランキング</h2>
-			<div class="rows row-ranking">
-				<a href="" class="grid grid-4">
-					<span class="icon-ranking">1</span>
-					<div class="photo">
-						<img src="https://placehold.jp/300x200.png" alt="">
-					</div>
-					<div class="content">
-						<h3 class="title-ranking">店舗名1</h3>
-					</div>
-				</a>
-				<a href="" class="grid grid-4">
-					<span class="icon-ranking">2</span>
-					<div class="photo">
-						<img src="https://placehold.jp/300x200.png" alt="">
-					</div>
-					<div class="content">
-						<h3 class="title-ranking">店舗名2</h3>
-					</div>
-				</a>
-				<a href="" class="grid grid-4">
-					<span class="icon-ranking">3</span>
-					<div class="photo">
-						<img src="https://placehold.jp/300x200.png" alt="">
-					</div>
-					<div class="content">
-						<h3 class="title-ranking">店舗名3</h3>
-					</div>
-				</a>
-			</div>
+      <section class="article-main ranking" id="ranking">
+        <header>
+          <h1 class="title title-main">人気の店舗ランキング</h1>
+        </header>
+        <div class="rows row-main">
+          <div class="col col-4 col-ranking">
+            <img src="https://placehold.jp/300x200.png" alt="">
+            <span class="icon-ranking">1</span>
+            <h2 class="title title-medium">店名サンプル1</h2>
+          </div>
+          <div class="col col-4 col-ranking">
+            <img src="https://placehold.jp/300x200.png" alt="">
+            <span class="icon-ranking">2</span>
+            <h2 class="title title-medium">店名サンプル2</h2>
+          </div>
+          <div class="col col-4 col-ranking">
+            <img src="https://placehold.jp/300x200.png" alt="">
+            <span class="icon-ranking">3</span>
+            <h2 class="title title-medium">店名サンプル3</h2>
+          </div>
+        </div>
+      </section>
 
-			<!-- ▽ニュースのレイアウトを作ってみましょう -->
-			<h2 class="title-main">最新ニュース</h2>
-			<div class="rows row-news">
-				<dl class="news-list">
-					<dt>2017年4月28日</dt>
-					<dd><a href="">ニュースタイトルが入ります</a></dd>
-					<dt>2017年4月28日</dt>
-					<dd><a href="">ニュースタイトルが入ります</a></dd>
-					<dt>2017年4月28日</dt>
-					<dd><a href="">ニュースタイトルが入ります</a></dd>
-					<dt>2017年4月28日</dt>
-					<dd><a href="">ニュースタイトルが入ります</a></dd>
-					<dt>2017年4月28日</dt>
-					<dd><a href="">ニュースタイトルが入ります</a></dd>
-				</dl>
-			</div>
-		</div>
+      <!-- ▽ニュースのレイアウトを作ってみましょう -->
+      <section class="article-main news" id="news">
+        <header>
+          <h1 class="title title-main">ニュース・お知らせ</h1>
+        </header>
+        <div class="rows row-main">
+          <dl class="news-list">
+            <dt>2017.04.08</dt>
+            <dd><a href="">ニュース名サンプルニュース名サンプルニュース名サンプルニュース名サンプル</a></dd>
+            <dt>2017.04.08</dt>
+            <dd><a href="">ニュース名サンプルニュース名サンプルニュース名サンプルニュース名サンプル</a></dd>
+            <dt>2017.04.08</dt>
+            <dd><a href="">ニュース名サンプルニュース名サンプルニュース名サンプルニュース名サンプル</a></dd>
+            <dt>2017.04.08</dt>
+            <dd><a href="">ニュース名サンプルニュース名サンプルニュース名サンプルニュース名サンプル</a></dd>
+            <dt>2017.04.08</dt>
+            <dd><a href="">ニュース名サンプルニュース名サンプルニュース名サンプルニュース名サンプル</a></dd>
+          </dl>
+        </div>
+	    </section>
+	  </div>
 	</main>
 	<!-- ▲メインコンテンツのマークアップをしてみましょう▲ -->
 	<!-- ▼フッターのマークアップをしてみましょう▼ -->

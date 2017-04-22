@@ -2,164 +2,18 @@
 /*==================================
 基本設定
 ==================================*/
-body {
-  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-  font-size: 16px;
-  color: #333;
-  line-height: 1.5;
-  background: #fcfcfc;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
 /*==================================
 ヘッダー
 ==================================*/
-#header {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid #CCC;
-}
-
-#header .logo {
-  float: left;
-}
-
-#header .logo img {
-  vertical-align: bottom;
-}
-
 /*==================================
 ナビゲーション
 ==================================*/
-#nav {
-  float: right;
-  padding-top: 70px;
-}
-
-#nav a {
-  color: #111;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-#nav a:hover {
-  text-decoration: underline;
-}
-
-#nav li {
-  float: left;
-  border-left: 1px solid #CCC;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-#nav li .fa {
-  margin-right: 0.3em;
-}
-
-#nav li:last-child {
-  border-right: 1px solid #CCC;
-}
-
 /*==================================
 基本レイアウト
 ==================================*/
-.wrapper {
-  max-width: 1000px;
-  margin: auto;
-}
-
-.rows:before {
-  content: "";
-  display: table;
-}
-
-.rows:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /*==================================
 メインコンテンツ
 ==================================*/
-#main {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-.row-ranking {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-bottom: 40px;
-}
-
-.grid {
-  float: left;
-  margin-left: 50px;
-  position: relative;
-  color: #111;
-  text-decoration: none;
-  transition: all ease 0.35s;
-}
-
-.grid:hover {
-  opacity: 0.7;
-}
-
-.grid:first-child {
-  margin-left: 0;
-}
-
-.grid .icon-ranking {
-  font-weight: 700;
-  line-height: 40px;
-  width: 40px;
-  background-color: #FFDE5C;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50px;
-  position: absolute;
-  font-size: 22px;
-  top: -20px;
-  left: -20px;
-}
-
-.title-main {
-  font-weight: 700;
-  font-size: 24px;
-  border-bottom: 2px solid #CCC;
-  padding-bottom: 6px;
-  margin-bottom: 12px;
-}
-
-.news-list dt {
-  float: left;
-}
-
-.news-list dd {
-  padding-left: 9em;
-  border-bottom: 1px dashed #CCC;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-
 /*==================================
 フッター
 ==================================*/
-#footer {
-  background-color: #009999;
-  color: #FFF;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  text-align: center;
-}
-
-#footer small {
-  font-size: 13px;
-}
